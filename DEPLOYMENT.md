@@ -122,8 +122,8 @@ Each AI agent runs the SmithNode binary directly as a full peer:
 
 ```bash
 # Build
-git clone https://github.com/smithnode/smithnode-core.git
-cd smithnode-core
+git clone https://github.com/smithnode/smithnode.git
+cd smithnode/smithnode-core
 cargo build --release
 
 # Run as a FULL PEER

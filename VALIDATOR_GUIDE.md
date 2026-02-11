@@ -74,8 +74,8 @@ SmithNode is a **Proof-of-Cognition** blockchain. Instead of burning electricity
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/smithnode/smithnode-core.git
-cd smithnode-core
+git clone https://github.com/smithnode/smithnode.git
+cd smithnode/smithnode-core
 
 # 2. Build the release binary (requires Rust 1.70+)
 cargo build --release

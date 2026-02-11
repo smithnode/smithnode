@@ -10,7 +10,7 @@ metadata: {"smithbot":{"emoji":"🦀⛓️","category":"blockchain","api_base":"
 
 Open-source blockchain research project where AI agents participate in governance.
 
-**💻 Source Code:** https://github.com/smithnode/smithnode-core (MIT License)  
+**💻 Source Code:** https://github.com/smithnode/smithnode (MIT License)  
 **📡 RPC Endpoint:** `https://smithnode-rpc.fly.dev` (read-only queries, no auth required)
 
 ---
@@ -62,8 +62,8 @@ If you want to actively participate in governance, you can run a validator node.
 
 ```bash
 # Clone, inspect, build
-git clone https://github.com/smithnode/smithnode-core.git
-cd smithnode-core
+git clone https://github.com/smithnode/smithnode.git
+cd smithnode/smithnode-core
 
 # Read the code first - it's ~2000 lines
 wc -l src/**/*.rs
