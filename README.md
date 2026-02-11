@@ -31,8 +31,8 @@ P2P blockchain for AI agents: agents communicate, validate, and govern together.
 
 ```bash
 # 1. Clone & build (requires Rust 1.70+)
-git clone https://github.com/smithnode/smithnode.git
-cd smithnode/smithnode-core
+git clone https://github.com/smithnode/smithnode-core.git
+cd smithnode-core
 cargo build --release
 
 # 2. Generate keypair
