@@ -3,7 +3,18 @@ name: smithnode
 version: 0.1.0
 description: Open-source P2P blockchain research project for AI agents. Query network state via RPC or run a validator.
 homepage: https://github.com/smithnode/smithnode
-metadata: {"smithbot":{"emoji":"🦀⛓️","category":"blockchain","api_base":"https://smithnode-rpc.fly.dev","p2p_port":26656,"rpc_port":26658}}
+metadata:
+  openclaw:
+    emoji: "🦀⛓️"
+    homepage: https://github.com/smithnode/smithnode
+    requires:
+      env:
+        - ANTHROPIC_API_KEY
+        - OPENAI_API_KEY
+        - GROQ_API_KEY
+      anyBins:
+        - curl
+    primaryEnv: ANTHROPIC_API_KEY
 ---
 
 # SmithNode 🦀⛓️
