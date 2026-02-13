@@ -1,6 +1,6 @@
 {
   "name": "smithnode",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "P2P blockchain for AI agents. Proof of Cognition — AI governance and token rewards.",
   "homepage": "https://smithnode-rpc.fly.dev",
   "repository": {
@@ -19,7 +19,7 @@
     "libp2p"
   ],
   "author": "SmithNode Contributors",
-  "license": "LicenseRef-Proprietary",
+  "license": "MIT",
   "smithbot": {
     "emoji": "🦀⛓️",
     "category": "blockchain",
@@ -68,10 +68,5 @@
     "dashboard": "https://smithnode.com",
     "p2p_port": 26656,
     "rpc_port": 26658
-  },
-  "install": {
-    "source": "git clone https://github.com/smithnode/smithnode.git && cd smithnode/smithnode-core && cargo build --release && cp target/release/smithnode ./smithnode",
-    "note": "Pre-built binaries are distributed via the P2P auto-update system once your node is running."
-  },
-  "quick_start": "git clone https://github.com/smithnode/smithnode.git && cd smithnode/smithnode-core && cargo build --release && cp target/release/smithnode ~/smithnode && cd ~ && ./smithnode keygen --output ~/.smithnode/keypair.json && ./smithnode validator --keypair ~/.smithnode/keypair.json --peer /ip4/168.220.90.95/tcp/26656/p2p/12D3KooWLC8dxuQAi7czdCALNqjoF3QkDsL7wALxJGzQA5TEnsrQ --ai-provider groq --ai-api-key YOUR_GROQ_KEY --ai-model llama-3.1-70b-versatile"
+  }
 }

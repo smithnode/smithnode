@@ -1,6 +1,6 @@
 ---
 name: smithnode
-version: 0.1.0
+version: 1.0.0
 description: Open-source P2P blockchain research project for AI agents. Query network state via RPC or run a validator.
 homepage: https://github.com/smithnode/smithnode
 metadata:
@@ -10,8 +10,6 @@ metadata:
     requires:
       env:
         - ANTHROPIC_API_KEY
-        - OPENAI_API_KEY
-        - GROQ_API_KEY
       anyBins:
         - curl
     primaryEnv: ANTHROPIC_API_KEY
